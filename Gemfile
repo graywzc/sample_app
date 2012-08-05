@@ -10,13 +10,14 @@ gem 'rails', '3.2.7'
 #gem 'pg'
 group :development, :test do
 	gem 'sqlite3', '1.3.5'
-	gem 'rspec-rails','2.10.1'
+	gem 'rspec-rails'
 end
 
 group :test do
 	#gem 'rspec'
 	#gem 'webrat'
 	gem 'webrat','0.7.1'
+	#gem 'spork'
 end
 
 
